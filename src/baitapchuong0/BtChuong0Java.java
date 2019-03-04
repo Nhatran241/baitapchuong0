@@ -3,20 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package baitapchuong0;
+package bt.chuong.pkg0.java;
+
+import javax.swing.JFrame;
 
 /**
  *
- * @author trann
+ * @author Administrator
  */
-public class Baitapchuong0 {
+public class BtChuong0Java {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        new FMain();
-//new MyFrameBt9().setVisible(true);
+        MyFrameBt9 bt=new MyFrameBt9();
+        bt.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        bt.setVisible(true);
     }
     
 }
