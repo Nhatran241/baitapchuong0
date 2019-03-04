@@ -88,6 +88,10 @@ public class PMain extends JPanel implements MouseListener{
                         callBack.onChoosePanel(new PBai2(callBack));
                         break;
                     }
+                     case "Bai 9":{
+                        callBack.onChoosePanel(new PBai9(callBack));
+                        break;
+                    }
                 } }
 
     @Override

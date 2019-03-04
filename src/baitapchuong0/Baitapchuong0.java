@@ -16,6 +16,7 @@ public class Baitapchuong0 {
      */
     public static void main(String[] args) {
         new FMain();
+//new MyFrameBt9().setVisible(true);
     }
     
 }
